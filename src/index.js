@@ -16,7 +16,9 @@ const createWindow = () => {
     height: 600,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    // frame :false,
+    // fullscreen :true
   });
 
   // and load the index.html of the app.
