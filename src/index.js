@@ -34,6 +34,7 @@ const createWindow = () => {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+  require('../src/assist/menues')
 };
 
 // This method will be called when Electron has finished
