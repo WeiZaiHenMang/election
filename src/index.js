@@ -35,6 +35,7 @@ const createWindow = () => {
     mainWindow = null;
   });
   require('../src/assist/menues')
+  require('../src/assist/ipcmain')
 };
 
 // This method will be called when Electron has finished
